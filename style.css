@@ -3,12 +3,16 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 40px;
+    font-size: 43px;
+    
+}
+.h2{
+    font-size: 40;
 }
 .ononna{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -36,4 +40,33 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.exprience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exprience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow:10px 10px 50px rgb(59, 65, 47);
+    border-radius: 4px;
+    border-left:8px solid;
+    border-top:5px solid;
+}
+#web-dev-exprience{
+    border-left:7px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice:1 ;
+    
+}
+#full-stack-exprience{
+    border-left: 7px solid;
+    border-image: linear-gradient(pink,tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
